@@ -1,0 +1,85 @@
+.policy-section {
+  background: #ddd7cf;
+  padding-top: 104px;
+  padding-bottom: 40px;
+
+  @include media(desktop) {
+    padding-top: 136px;
+    padding-bottom: 48px;
+  }
+}
+
+.policy-main-title {
+  text-shadow: 1px 2px 0 rgba(107, 97, 79, 0.4);
+  font-family: 'Cagliostro', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #302d29;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    font-size: 32px;
+    margin-bottom: 48px;
+  }
+}
+
+.policy-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #302d29;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.policy-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #302d29;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  @include media(desktop) {
+  }
+}
+
+.policy-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.policy-item {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #302d29;
+  margin-bottom: 8px;
+
+  &:last-child {
+    margin-bottom: 16px;
+  }
+
+  @include media(desktop) {
+  }
+}
+
+.policy-span {
+  text-decoration: underline;
+}
+
+.policy-link {
+  text-decoration: underline;
+  word-wrap: break-word;
+}
