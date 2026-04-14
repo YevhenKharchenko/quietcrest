@@ -1,7 +1,7 @@
 .context-menu {
   display: none;
-  background: #302d29;
-  border-bottom: 1px solid #7c715d;
+  background: #101119;
+  border-bottom: 1px solid #242847;
   padding: 32px 16px 32px;
   max-width: 375px;
   width: 100%;
@@ -22,8 +22,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
-  margin-bottom: 35px;
+  gap: 16px;
+  margin-bottom: 124px;
 }
 
 .context-list-item {
@@ -38,7 +38,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14px;
-  color: #fafafa;
+  color: #d7d8e4;
   opacity: 0.8;
   width: 100%;
   margin-left: auto;
@@ -57,7 +57,7 @@
     bottom: 0;
     width: 100%;
     height: 1px;
-    background-color: #fea924;
+    background-color: #4cc3d8;
     transform: scaleX(0);
     transform-origin: center;
     transition: transform 0.3s ease-in-out;

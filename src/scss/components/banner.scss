@@ -1,5 +1,5 @@
 .cookie-banner-section {
-  background: #302d29;
+  background: #101119;
   width: 100%;
   max-width: 375px;
   padding: 64px 40px;
@@ -35,7 +35,7 @@
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #fafafa;
+  color: #d7d8e4;
   margin-bottom: 32px;
 
   @include media(desktop) {
@@ -57,14 +57,14 @@
 }
 
 .cookie-decline-btn {
-  border-bottom: 1px solid #c3baac;
+  border-bottom: 1px solid #242847;
   padding: 7px 9px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
   text-align: center;
-  color: #fafafa;
+  color: #d7d8e4;
   width: 100%;
   max-width: max-content;
 
@@ -74,7 +74,7 @@
 
 .cookie-accept-btn {
   box-shadow: 1px 2px 1px 0 rgba(107, 111, 106, 0.3);
-  background: #c3baac;
+  background: #242847;
   border-radius: 4px;
   padding: 8px 10px;
   font-family: 'Roboto', sans-serif;
@@ -82,7 +82,7 @@
   font-size: 12px;
   line-height: 1.5;
   text-align: center;
-  color: #302d29;
+  color: #d7d8e4;
   width: 100%;
   max-width: max-content;
 

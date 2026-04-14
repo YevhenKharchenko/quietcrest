@@ -1,9 +1,10 @@
 .footer {
-  background: #302d29;
+  background: #101119;
+  border-top: 1px solid #242847;
   padding: 64px 0;
 
   @include media(desktop) {
-    padding: 64px 0;
+    padding: 80px 0;
   }
 }
 
@@ -45,11 +46,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 8px;
 
   @include media(desktop) {
     justify-content: center;
-    gap: 8px;
   }
 }
 
@@ -63,8 +63,7 @@
   line-height: 1.5;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  text-align: center;
-  color: #ddd7cf;
+  color: #d7d8e4;
 
   @include media(desktop) {
     font-size: 16px;
@@ -77,7 +76,7 @@
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #ddd7cf;
+  color: #d7d8e4;
 
   @include media(desktop) {
     font-size: 16px;

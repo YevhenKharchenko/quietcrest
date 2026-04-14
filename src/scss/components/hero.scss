@@ -9,11 +9,17 @@
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
+  background-image: url(../img/hero/hero-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom 176px center;
+  background-size: auto;
 
   @include media(desktop) {
-    padding-top: 104px;
-    padding-bottom: 80px;
+    padding-top: 112px;
+    padding-bottom: 160px;
     max-width: 1440px;
+    background-image: url(../img/hero/hero-bg-desk.jpg);
+    background-position: bottom 0 center;
   }
 }
 
@@ -28,76 +34,47 @@
 }
 
 .hero-text-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
   @include media(desktop) {
   }
 }
 
 .hero-subtitle {
-  font-family: 'Cagliostro', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 1.5;
   text-align: center;
-  color: #302d29;
-  max-width: 206px;
+  color: #d7d8e4;
+  max-width: 296px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 
   @include media(desktop) {
     font-size: 24px;
     max-width: max-content;
-    margin-bottom: 32px;
-    order: 1;
   }
 }
 
 .hero-main-title {
-  text-shadow: 1px 2px 0 rgba(107, 97, 79, 0.4);
-  font-family: 'Cagliostro', sans-serif;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  font-family: 'Cinzel', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
   text-align: center;
-  color: #302d29;
-  margin-bottom: 48px;
+  color: #d7d8e4;
+  margin-bottom: 356px;
 
   @include media(desktop) {
-    margin-bottom: 32px;
-    order: 2;
-  }
-}
-
-.hero-img-wrapper {
-  margin-bottom: 64px;
-
-  @include media(desktop) {
-    margin-bottom: 0;
-    order: 4;
-  }
-}
-
-.hero-img {
-  box-shadow: 0 0 16px 8px rgba(48, 45, 41, 0.3);
-  border-radius: 8px;
-
-  @include media(desktop) {
-    border-radius: 16px;
+    font-size: 48px;
+    margin-bottom: 342px;
   }
 }
 
 .hero-btn {
   box-shadow: 2px 2px 1px 0 rgba(90, 45, 9, 0.5);
-  background: #fea924;
-  border: 1px solid #7c715d;
+  background: #d7d8e4;
+  border: 1px solid #242847;
   border-radius: 8px;
-  padding: 14px 36px;
+  padding: 13px 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,11 +86,9 @@
   &:hover,
   &:focus,
   &:active {
-    background: linear-gradient(180deg, #fea924 0%, #ddb880 100%);
+    background: linear-gradient(180deg, #d7d8e4 0%, #9697bf 100%);
   }
 
   @include media(desktop) {
-    margin-bottom: 32px;
-    order: 3;
   }
 }
