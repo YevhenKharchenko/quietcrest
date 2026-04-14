@@ -33,15 +33,15 @@
 
 .modes-text {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
-  color: #302d29;
+  color: #d7d8e4;
   margin-bottom: 40px;
 
   @include media(desktop) {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 48px;
   }
 }
@@ -62,29 +62,28 @@
 }
 
 .modes-list-item {
-  background: #7c715d;
-  border: 2px solid #ddd7cf;
+  background: #1a1b25;
+  border: 1px solid #242847;
   border-radius: 8px;
-  padding: 14px 6px 14px 14px;
+  padding: 15px;
   display: flex;
   align-items: center;
   gap: 8px;
   width: 100%;
 
   @include media(desktop) {
-    padding: 30px 14px;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    max-width: 200px;
+    max-width: 210px;
   }
 }
 
 .modes-img {
-  min-width: 60px;
+  min-width: 32px;
 
   @include media(desktop) {
-    min-width: 120px;
+    min-width: 100px;
   }
 }
 
@@ -93,11 +92,10 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
-  text-align: center;
-  color: #fafafa;
-  width: 100%;
+  color: #d7d8e4;
 
   @include media(desktop) {
     font-size: 16px;
+    text-align: center;
   }
 }

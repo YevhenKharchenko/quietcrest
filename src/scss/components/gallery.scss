@@ -13,7 +13,7 @@
   position: relative;
 
   @include media(desktop) {
-    padding-top: 58px;
+    padding-top: 48px;
     padding-bottom: 80px;
     max-width: 1440px;
   }
@@ -28,7 +28,7 @@
 }
 
 .gallery-swiper-container {
-  max-width: 286px;
+  max-width: 293px;
   margin-left: auto;
   margin-right: auto;
 
@@ -47,7 +47,7 @@
 }
 
 .gallery-slide {
-  max-width: 286px;
+  max-width: 293px;
 
   @include media(desktop) {
   }
@@ -69,7 +69,7 @@
     max-width: 1200px;
     gap: 18px;
     position: absolute;
-    top: 276px;
+    top: 316px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;

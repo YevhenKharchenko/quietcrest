@@ -5,7 +5,6 @@
 
 .about-bg-wrapper {
   padding-top: 40px;
-  padding-bottom: 64px;
 
   @include media(desktop) {
     padding-top: 48px;
@@ -15,6 +14,10 @@
 }
 
 .about-container {
+  padding: 0;
+
+  @include media(desktop) {
+  }
 }
 
 .about-title-wrapper {
@@ -33,30 +36,27 @@
 }
 
 .about-text {
+  padding: 0 16px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
-  color: #302d29;
-  margin-bottom: 40px;
+  color: #d7d8e4;
+  margin-bottom: 48px;
 
   @include media(desktop) {
-    font-size: 24px;
-    max-width: 894px;
+    padding: 0 120px;
+    max-width: 879px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 48px;
   }
 }
 
 .about-img {
-  box-shadow: 0 0 16px 8px rgba(48, 45, 41, 0.3);
-  border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
-    border-radius: 16px;
   }
 }

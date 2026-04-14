@@ -1,22 +1,25 @@
 .features-section {
+  @include media(desktop) {
+  }
 }
 
 .features-bg-wrapper {
   padding-top: 40px;
-  padding-bottom: 64px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  position: relative;
 
   @include media(desktop) {
     padding-top: 48px;
-    padding-bottom: 80px;
+    max-width: 1440px;
   }
 }
 
 .features-container {
-  @include media(desktop) {
-  }
-}
+  padding: 0;
 
-.features-title-wrapper {
   @include media(desktop) {
   }
 }
@@ -26,94 +29,85 @@
   }
 }
 
-.features-content-wrapper {
-  @include media(desktop) {
-  }
-}
-
 .features-text {
+  padding: 0 16px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
-  color: #302d29;
-  max-width: 260px;
-  margin-left: auto;
-  margin-right: auto;
+  color: #d7d8e4;
   margin-bottom: 40px;
 
   @include media(desktop) {
-    font-size: 24px;
-    max-width: max-content;
+    padding: 0 120px;
     margin-bottom: 48px;
   }
 }
 
-.features-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  max-width: max-content;
+.features-swiper-container {
+  max-width: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
 
   @include media(desktop) {
-    flex-direction: row;
+    max-width: 1440px;
+    margin-bottom: 48px;
+  }
+}
+
+.features-swiper-container.show {
+  visibility: visible;
+}
+
+.features-swiper-wrapper {
+  @include media(desktop) {
+    display: flex;
     justify-content: center;
     gap: 32px;
-    margin-bottom: 48px;
   }
 }
 
-.features-list-item {
-  background: #c3baac;
-  border: 2px solid rgba(124, 113, 93, 0.3);
+.features-slide {
+  background: #101119;
+  border: 2px solid #1a1b25;
   border-radius: 8px;
-  padding: 14px;
-  display: flex;
+  padding: 30px 14px;
+  display: flex !important;
+  flex-direction: column;
   align-items: center;
   gap: 16px;
-  width: 100%;
+  max-width: 200px;
 
   @include media(desktop) {
-    padding: 30px 14px;
-    flex-direction: column;
-    max-width: 200px;
+    width: 100% !important;
   }
 }
 
 .features-icon {
-  min-width: 30px;
+  min-width: 40px;
 
   @include media(desktop) {
-    min-width: 48px;
-    width: 48px;
-    height: 48px;
   }
 }
 
 .features-item-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #302d29;
+  color: #9697bf;
 
   @include media(desktop) {
-    font-size: 16px;
   }
 }
 
 .features-img {
-  box-shadow: 0 0 16px 8px rgba(48, 45, 41, 0.3);
-  border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
-    border-radius: 16px;
   }
 }

@@ -1,28 +1,24 @@
-.contact-section {
+.testimonials-section {
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/contact/contact-left-bg-desk.png);
-  background-repeat: no-repeat;
-  background-position: bottom 56px center;
-  background-size: auto;
 
   @include media(desktop) {
     max-width: 1440px;
     background-image:
-      url(../img/contact/contact-left-bg-desk.png),
-      url(../img/contact/contact-right-bg-desk.png);
+      url(../img/testimonials/testimonials-left-bg-desk.png),
+      url(../img/testimonials/testimonials-right-bg-desk.png);
     background-repeat: no-repeat, no-repeat;
     background-position:
-      center left 223px,
-      center right 223px;
+      center left,
+      center right;
     background-size: auto, auto;
   }
 }
 
-.contact-bg-wrapper {
+.testimonials-bg-wrapper {
   padding-top: 40px;
-  padding-bottom: 304px;
+  padding-bottom: 64px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
@@ -34,67 +30,73 @@
   }
 }
 
-.contact-container {
+.testimonials-container {
 }
 
-.contact-title-wrapper {
+.testimonials-title {
   @include media(desktop) {
   }
 }
 
-.contact-title {
-  @include media(desktop) {
-  }
-}
-
-.contact-content-wrapper {
-  @include media(desktop) {
-  }
-}
-
-.contact-text-wrapper {
+.testimonials-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 16px;
 
   @include media(desktop) {
     flex-direction: row;
-    justify-content: center;
+    gap: 22px;
   }
 }
 
-.contact-text {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #d7d8e4;
+.testimonials-slide {
+  border: 1px solid #242847;
+  border-radius: 8px;
+  padding: 31px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 188px;
 
   @include media(desktop) {
-    font-size: 16px;
+    max-width: 283px;
   }
 }
 
-.contact-email-link {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #d7d8e4;
+.testimonials-name-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 16px;
+  gap: 32px;
 
   @include media(desktop) {
-    font-size: 16px;
   }
 }
 
-.email-icon {
-  min-width: 16px;
+.testimonials-item-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #d7d8e4;
 
   @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.testimonials-img {
+  @include media(desktop) {
+  }
+}
+
+.testimonials-item-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #d7d8e4;
+
+  @include media(desktop) {
+    font-size: 16px;
   }
 }

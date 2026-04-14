@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://widebridge.space/sitemap.xml
+Sitemap: https://quietcrest.online/sitemap.xml
